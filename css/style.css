@@ -1,0 +1,95 @@
+@charset "uft-8";
+@import "default.css"; 
+
+body{margin: 0; padding: 0; box-sizing: border-box; font-family: "", sans-serif;}
+ul{list-style: none;}
+a{text-decoration: none; color: #333;}
+
+/* header */
+#header{}
+.header_inner{width: 100%; height: 100%; margin: 0 auto; background: #000;}
+#h_top {}
+#h_top .h_btn{}
+.h_logo{}
+#h_t_right{}
+#h_t_right .h_btn{}
+
+#gnb{display: flex; justify-content: space-between;}
+#gnb li a{color: #fff;}
+#gnb li a::before{}
+#gnb .list{}
+
+
+/* main */
+/* sec1 */
+#sec1{}
+.sec1_inner{background: salmon; width: 100%; margin: 0 auto; display: flex;}
+video{width: 40%; margin: 0 auto; margin: }
+.sec1_txt{_position: absolute;
+  left: 700px;
+  top: 400px;}
+/* sec2 */
+#sec2{}
+#sec2 p{}
+
+/* sec3 */
+#sec3{}
+#sec3 p{}
+#sec3 button{}
+
+/* sec4 */
+#sec4{}
+#sec4 .sec_inner{}
+#sec4 .sec_inner .category{}
+
+#sec4 .sec_inner #new_in{}
+#sec4 .sec_inner #new_in .title_wrap{}
+#sec4 .sec_inner #new_in .swiper{}
+#sec4 .sec_inner #new_in .swiper .swiper_wrap{}
+#sec4 .sec_inner #new_in .swiper .swiper_wrap .swiper_slide{}
+#sec4 .sec_inner #new_in .swiper .swiper_wrap .swiper_slide .info{}
+#sec4 .sec_inner #new_in .swiper_prev{}
+#sec4 .sec_inner #new_in .swiper_next{}
+
+#sec4 .sec_inner #best_selling{}
+#sec4 .sec_inner #best_selling .title_wrap{}
+#sec4 .sec_inner #best_selling .swiper{}
+#sec4 .sec_inner #best_selling .swiper .swiper_wrap{}
+#sec4 .sec_inner #best_selling .swiper .swiper_wrap .swiper_slide{}
+#sec4 .sec_inner #best_selling .swiper .swiper_wrap .swiper_slide .info{}
+#sec4 .sec_inner #best_selling .swiper_prev{}
+#sec4 .sec_inner #best_selling .swiper_next{}
+
+
+/* sec5 */
+#sec5{}
+
+/* sec6 */
+#sec6{}
+
+/* sec7 */
+#sec7{}
+
+/* sec8 */
+#sec8{}
+#sec8 .category_wrap{}
+#sec8 .category_wrap .wrap_title{}
+
+#sec8 .content .card1 .img{background-image: url(../img/ca_2.jpg);}
+#sec8 .content .card2 .img{background-image: url(../img/ca_4.jpg);}
+#sec8 .content .card3 .img{background-image: url(../img/ca_8.jpg);}
+#sec8 .content .card4 .img{background-image: url(../img/ca_3.jpg);}
+
+/* footer */
+/* f_main */
+#f_main{}
+#f_main .main{}
+#f_main .main .title{}
+#f_main .main .sub{}
+
+/* sns */
+#sns{}
+
+/* f_btn */
+#f_btn{}
+#f_btn p{}
